@@ -1,0 +1,51 @@
+# Basic
+title: 丁成山
+subtitle: 个人站
+description: 欢迎来到我的个人站~
+# 头像里面的标题
+avatarTitle: 翩若惊鸿影
+# 头像里面的描述
+avatarDesc: Web / Anaconda
+url: "http://dingchengshan.github.io"
+
+# Social
+social:
+    QQ: 834557454 
+    github: dingchengshan
+    mail: dingchengshan@outlook.com
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: fd4c6dfde64e6f868fe46738f14fc22f  
+
+
+
+# 修改日期
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于我, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+
+
